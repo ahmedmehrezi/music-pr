@@ -1,0 +1,47 @@
+.block{
+    display: flex;
+}
+
+.txt{
+    font: bold;
+    font-size: px;
+    color: white;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+.justify{
+    justify-content: space-between;
+    justify-items: center;
+    flex-grow: inherit;
+    margin-top: 4px;
+}
+
+.black{
+    /* background-color: black; */
+    padding: 3px;
+    outline: none;
+    margin-top: 5px;
+}
+.wrap{
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.font{
+    color: white;
+    text-align: left;
+    margin-top: 4px;
+    margin-bottom: 10px;
+}
+.blok{
+    justify-content: start;
+    justify-items: center;
+    gap: 8px;
+}

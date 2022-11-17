@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import { useSelector } from 'react-redux';
+import { Route, Routes } from 'react-router-dom';
+import './components/style.css'
+import { Searchbar, Sidebar, MusicPlayer, TopPlay } from './components';
+import {TopArtists, AroundYou, Discover, Search, TopCharts } from '../src/pages';
+import './App.css'
+const App = () => {
+  const { activeSong } = useSelector((state) => state.player);
 
-function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Sidebar />
+      <div className="l">
+        <Searchbar />
+        
+        <div className="mm">
+          <div className="nn">
+            <Routes>
+              <Route path="/" element={<Discover/>} />
+              <Route path="/top-artists" element={<TopArtists />} />
+              <Route path="/top-charts" element={<TopCharts />} />
+              <Route path="/search/:searchTerm" element={<Search />} />
+            </Routes>
+          </div>
+          <div className="top" >
+            <TopPlay />
+          </div>
+        </div>
+      </div>
+
+      {activeSong?.title && (
+        <div className=" music">
+          <MusicPlayer />
+        </div>
+      )}
     </div>
   );
-}
+};
 
 export default App;

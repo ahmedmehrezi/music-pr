@@ -1,0 +1,39 @@
+.block{
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    justify-content: center;
+    position: relative;
+}
+.flex{
+    display: flex;
+}
+
+.bl{
+    width: 80px;
+    justify-content: space-around;
+
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.bll{
+    flex-grow: inherit;
+    justify-items: center;
+}
+.text-white{
+    color: white;
+}
+.hh{
+    justify-content: end;
+    justify-items: center;
+    display: flex;
+
+}
+.v{
+    justify-content: start;
+    justify-items: center;
+    display: flex;
+    
+}

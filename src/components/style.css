@@ -1,0 +1,195 @@
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(27, 154, 245);
+}
+.navimg{
+    width: 100px;
+    padding: 10px;
+}
+
+.nv{
+    padding-right: 10px;
+}
+.ggg{
+    width: 250px;
+}
+
+.vv{
+    width: 120px;
+    border-radius: 10px;
+    /* display: block; */
+    margin-left: auto;
+}
+
+.g{
+    border-radius: 5px;
+}
+
+.b{
+    width: 400px;
+}
+.ss{
+    margin: 5px;
+}
+
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.pp{
+    padding: 4px;
+    background-color: white;
+    opacity: 80px;
+    cursor: pointer;
+    width: 250px;
+}
+
+.m{
+    position: relative;
+
+}
+.im{
+    width: 250px;
+}
+.absolute{
+    position: absolute;
+    inset: 0;
+    justify-content: center;
+    justify-items: center;
+    /* background-color: rgb(74, 6, 6); */
+
+}
+
+.mt{
+    margin-top: 4px ;
+}
+
+.pp{
+    font: bolder;
+}
+.jj{
+    color: rgb(145, 145, 145);
+}
+
+
+.bb{
+    align-items: center;
+    padding: 4px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    padding: 10px;
+}
+
+.k{
+    margin-right: 3px;
+    color: white;
+    
+}
+
+.js{
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: initial;
+    padding-left: 10px;
+    
+}
+
+.mx{
+    justify-content: center;
+
+}
+
+.white{
+    color: white;
+    
+
+}
+
+.col{
+    margin-left: 6px;
+    margin-bottom: 6px;
+    max-width: 500px;
+}
+
+.pointer{
+    cursor: pointer;
+    color: black;
+    padding-left: 10px;
+}
+
+.imm{
+    width: 90px;
+    border-radius: 50px;
+    margin: 0;
+}
+
+.it{
+    justify-items: center;
+
+}
+.it :hover{
+    background-color: #4c426e;
+}
+
+.id{
+    margin-right: 3px;
+    color: white;
+
+}
+.ff{
+    justify-items: center;
+    justify-content: space-between;
+    display: flex;
+
+}
+
+.flex{
+    display: flex;
+}
+
+.mx{
+    margin: 3px;
+    justify-content: center;
+
+}
+.tx{
+    color: white;
+}
+.p{
+    padding: 2px;
+}
+
+.row{
+    justify-content: start;
+    justify-items: center;
+    margin: 20px;
+}
+.wh{
+    width: 30px;
+    height: 30px;
+    margin-left: 4px;
+}
+
+.mmm{
+    padding: 4px;
+    display: flex;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+}
+.artistcard{
+    width: 250px;
+    padding: 4px;
+    background-color:white;
+    
+}
+.imgartist{
+    width: 250px;
+
+}
